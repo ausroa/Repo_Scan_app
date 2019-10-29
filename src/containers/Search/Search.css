@@ -1,0 +1,22 @@
+.search {
+    margin-left: 10px;
+}
+
+.search-input {
+    padding: 5px;
+    font-size: 15px;
+}
+
+.project-label {
+    margin-left: 10px;
+}
+
+.search-button {
+    padding: 5px;
+    font-size: 15px;
+}
+
+.error {
+    margin-top: 20px;
+    margin-left: 10px;
+}
