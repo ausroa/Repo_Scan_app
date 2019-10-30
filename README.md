@@ -1,5 +1,6 @@
 <h1>Dependency Checker</h1>
     <p>*Allows a user to check a github repo for updates, stability and vulnerabilities*</p>
+    <p>To scan for just package.json files. Removed -lock from searchRepo api call url // Will add to check for both files later.</p>
     
 <h3>Build Instructions</h3>
 <ul>
