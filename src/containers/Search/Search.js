@@ -19,6 +19,16 @@ class SearchDependency extends Component {
     }
 
     async searchRepo() {
+        if (this.state.value) {
+            this.setState({
+                value: null,
+                showResults: false,
+                error: false,
+                noDataFound: false,
+                user: null,
+                repo: null
+            })
+        }
         const base64 = require('base-64');
         const user = document.getElementById('userInput').value;
         const repo = document.getElementById('repoInput').value;

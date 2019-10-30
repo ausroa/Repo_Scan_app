@@ -6,7 +6,7 @@ class ResultTable extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            data: []
+            data: [],
         }
     }
 
@@ -23,7 +23,7 @@ class ResultTable extends Component {
                     key = null;
                     value = null;
                 } else {
-                    this.createPackageDisplay(key, value, arrayList);
+                    this.createPackageDisplay(key, value, arrayList).catch((e) => {});
                 }
             }
         }
